@@ -39,3 +39,4 @@ Izumi Kagurazaka
 ## Forked from
 
 https://github.com/fghibellini/arch-silence
+https://github.com/darac/grub-bgrt
