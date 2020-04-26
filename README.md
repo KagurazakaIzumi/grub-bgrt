@@ -7,7 +7,7 @@ A theme for GRUB2 which uses your system's UEFI logo (aka BGRT).
 
 ```sh
     sudo ./install.sh	# Fetches your BGRT, adjusts the theme to suit and installs it.
-    echo GRUB_THEME=grub-bgrt | sudo tee -a /etc/default/grub
+    echo GRUB_THEME=/boot/grub/themes/grub-bgrt/theme.txt | sudo tee -a /etc/default/grub
     sudo update-grub
 ```
 
@@ -23,7 +23,7 @@ To change the font in the theme, try something like:
 
 ## Plymouth Theme
 
-You may also want to pair this with my [plymouth theme](https://github.com/darac/plymouth-bgrt).
+You may also want to pair this with origin author [plymouth theme](https://github.com/darac/plymouth-bgrt).
 
 ## License
 
@@ -32,6 +32,9 @@ All the files in this project are distributed under the [GNU General Public Lice
 ## Author
 
 Paul Saunders
+
+## Modificator
+Izumi Kagurazaka
 
 ## Forked from
 
